@@ -1,0 +1,64 @@
+.result {
+    width: 100vw;
+    height: calc(100vh - 50px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.result p {
+    text-align: center;
+    font-weight: var(--boldL2);
+}
+
+.singleCard {
+    height: calc(100vh - 50px);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.playerText {
+    padding-top: 5px;
+    font-weight: var(--boldL2);
+    text-align: center;
+}
+
+.winner {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.congr {
+    color: var(--colorCyan);
+    font-size: calc(var(--size)* 2);
+}
+
+.profit {
+    color: var(--colorRed);
+    font-size: calc(var(--size)* 2);
+}
+
+.adminResult{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 270px);
+    gap: 10px;
+}
+
+.adminResult .winner {
+    border: 1px solid var(--colorGray3);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.adminResult .winner p {
+    text-align: left;
+
+}
